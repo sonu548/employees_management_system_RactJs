@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: 'signika', sans-serif;
+}
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+}
+
+
+#accepted{
+    color: rgb(1, 2, 2) !important; 
+    overflow: hidden;
+}
+::placeholder{
+    color: rgb(135, 135, 135) !important;
+}
+#alltask::-webkit-scrollbar{
+    display: none;
+    
+}
+#alltask{
+    color: white;
+}
+#login{
+    background-image: linear-gradient(to right top, #002436, #081e2f, #0d1928, #0e1421, #0d0d1a, #11101e, #131322, #161626, #1b2137, #1c2d4a, #17395d, #004770);
+    /* filter: blur(); */
+
+}
+#loginButton{
+  background-color: #009eed;
+    color: white;
+    transition: all ease 0.3s;
+}
+#loginButton:hover{
+    background-color: #00d5fb;
+    transition: all ease 0.3s;
+    color: black;
+    filter: drop-shadow(0px 10px 9px #05c7fc50);
+}
+#tasklistTask::-webkit-scrollbar{
+    display: none;
+
+}
+#tasklistTask{
+    color: white;
+}
